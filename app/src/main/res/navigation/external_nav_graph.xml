@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.conecta2.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_preRegisterFragment"
+            app:destination="@id/preRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preRegisterFragment"
+        android:name="com.example.conecta2.ui.fragments.PreRegisterFragment"
+        android:label="fragment_pre_register"
+        tools:layout="@layout/fragment_pre_register" >
+        <action
+            android:id="@+id/action_preRegisterFragment_to_accountVerifiedFragment"
+            app:destination="@id/accountVerifiedFragment" />
+        <action
+            android:id="@+id/action_preRegisterFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountVerifiedFragment"
+        android:name="com.example.conecta2.ui.fragments.AccountVerifiedFragment"
+        android:label="fragment_account_verified"
+        tools:layout="@layout/fragment_account_verified" >
+        <action
+            android:id="@+id/action_accountVerifiedFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_accountVerifiedFragment_to_preRegisterFragment"
+            app:destination="@id/preRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.conecta2.ui.fragments.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_accountCreatedFragment"
+            app:destination="@id/accountCreatedFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_accountVerifiedFragment"
+            app:destination="@id/accountVerifiedFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountCreatedFragment"
+        android:name="com.example.conecta2.ui.fragments.AccountCreatedFragment"
+        android:label="fragment_account_created"
+        tools:layout="@layout/fragment_account_created" >
+        <action
+            android:id="@+id/action_accountCreatedFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+</navigation>

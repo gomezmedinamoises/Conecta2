@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Conecta2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_back">¡Bienvenido de nuevo!</string>
+    <string name="sign_in_to_continue">Ingresa tus datos para iniciar sesión</string>
+    <string name="phone_number">Número telefónico</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="dont_have_an_account">¿No tienes una cuenta? - Regístrate</string>
+    <string name="remember_account">Recordar mi cuenta</string>
+    <string name="image_logo_app_content_description">App logo</string>
+    <string name="register">¡Regístrate!</string>
+    <string name="please_insert_your_personal_data_for_new_account">Por favor, proporcione los siguientes datos de su nueva cuenta</string>
+    <string name="accept_terms_conditions_pre_register">Acepto términos y condiciones</string>
+    <string name="register_me">Registrarme</string>
+    <string name="already_have_account_login">¿Ya tienes una cuenta? - Inicia sesión</string>
+    <string name="code">Código</string>
+    <string name="repeat_password">Repite tu contraseña</string>
+    <string name="message_sent">Hemos enviado un SMS a tu número</string>
+    <string name="user_notification_account_activation">Estimado usuario, presione sobre el enlace enviado para confirmar su cuenta</string>
+    <string name="message_not_received">¿No recibiste el SMS?</string>
+    <string name="resend_message"><u>Reenviar mensaje</u></string>
+    <string name="account_created">¡Cuenta creada!</string>
+    <string name="user_notification_account_created">Estimado usuario, su cuenta ha sido creada con éxito. Presione continuar para comenzar a usar la aplicación</string>
+    <string name="continue_application">Continuar</string>
+
+    <!-- inner fragment names -->
+    <string name="contact">Contacto</string>
+    <string name="portability">Portabilidad</string>
+    <string name="profile">Perfil</string>
+    <string name="recharges">Recargas</string>
+    <string name="home">Inicio</string>
+    <string name="logout">Salir</string>
+
+
+    <string name="user_plan_icon">Icono del plan del usuario</string>
+    <string name="greeting">Hola,</string>
+    <string name="default_user_name">Pedro Soler</string>
+    <string name="your_number_is">Tu número es</string>
+    <string name="default_user_number">55 2343 3444</string>
+    <string name="status_icon">status_icon</string>
+    <string name="status_plan_text">Activo</string>
+    <string name="plan_type_text">Plan Advance</string>
+    <string name="expiration_icon">expiration icon</string>
+    <string name="expiration_text">Vence:</string>
+    <string name="expiration_date">02/08/2021</string>
+    <string name="description_text_title"><u>Descripción</u></string>
+    <string name="description_detail">Este paquete cuenta con 5000 MB para navegar. Se puede compartir con otros dispositivos o usar la totalidad de los MB en EUA y Canadá. Además, incluye 1500 MIN de los cuales tienes 750 min para EUA y Canadá y 500 SMS de los cuales puedes usar 250 MIN en EUA y Canadá por 30 días.</string>
+    <string name="recharge_now">Recargar ahora</string>
+    <string name="my_consumption">Mi consumo</string>
+
+    <!-- message plan component -->
+    <string name="message_indicator">message_indicator</string>
+    <string name="messages">Mensajes</string>
+    <string name="message_icon">message_icon</string>
+    <string name="total_message_title">Total:</string>
+    <string name="total_message_info">100 SMS</string>
+    <string name="used_message_title">Usados:</string>
+    <string name="used_message_info">50 SMS</string>
+    <string name="available_message_title">Disponibles:</string>
+    <string name="available_message_info">50 SMS</string>
+
+    <!-- minutes plan component -->
+    <string name="minutes_indicator">minutes_indicator</string>
+    <string name="minutes">Minutos</string>
+    <string name="minutes_icon">minutes_icon</string>
+    <string name="total_minutes_title">Total:</string>
+    <string name="total_minutes_info">100 SMS</string>
+    <string name="used_minutes_title">Usados:</string>
+    <string name="used_minutes_info">50 SMS</string>
+    <string name="available_minutes_title">Disponibles:</string>
+    <string name="available_minutes_info">50 SMS</string>
+
+    <!-- mobile data plan component -->
+    <string name="mobile_data_indicator">mobile_data_indicator</string>
+    <string name="mobile_data">Datos móviles:</string>
+    <string name="mobile_data_icon">mobile_data_icon</string>
+    <string name="total_mobile_data_title">Total:</string>
+    <string name="total_mobile_data_info">100 SMS</string>
+    <string name="used_mobile_data_title">Usados:</string>
+    <string name="used_mobile_data_info">50 SMS</string>
+    <string name="available_mobile_data_title">Disponibles:</string>
+    <string name="available_mobile_data_info">50 SMS</string>
+</resources>
